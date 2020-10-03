@@ -1,4 +1,4 @@
-       import MediaPlayer from 'videomediaplayer'
+       import MediaPlayer from 'videomediaplayer/lib/mediaPlayer'   
        import autoPlay from 'videomediaplayer/lib/plguins/autoPlay'
        import autoPause from "videomediaplayer/lib/plguins/autoPause"
        import Ads from "videomediaplayer/lib/ads/index"
