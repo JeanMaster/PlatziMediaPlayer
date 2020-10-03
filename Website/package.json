@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Proyecto Del curso profesional de Javascript de la escuela de JS en platzi",
   "scripts": {
-    "start": "live-server"
+    "start": "parcel index.html ejercicios/index.html ejercicios/**/*.html"
   },
   "keywords": [
     "platzi"
@@ -11,6 +11,13 @@
   "author": "Jean carlos Hallak <jeancarlos70@gmail.com",
   "license": "MIT",
   "dependencies": {
-    "live-server": "^1.2.1"
+    "parcel-bundler": "^1.12.4",
+    "videomediaplayer": "^1.0.0"
+  },
+  "browserslist": [
+    "last 1 Chrome version"
+  ],
+  "devDependencies": {
+    "typescript": "^4.0.3"
   }
 }

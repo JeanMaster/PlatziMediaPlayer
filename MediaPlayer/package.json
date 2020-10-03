@@ -1,0 +1,16 @@
+{
+  "name": "videomediaplayer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/mediaPlayer.js",
+  "scripts": {
+    "build": "tsc src/**/*.ts  --outDir lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  }
+}
